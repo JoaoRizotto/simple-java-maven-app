@@ -34,8 +34,8 @@ public class AppTest
     {
         App.main(null);
         try {
-			assertEquals(15, App.soma(10,5));
-			} catch (AssertionError e) {
+		assertEquals(15, App.soma(10,5));
+	} catch (AssertionError e) {
             fail("Valor não compátivel");
         }
     }
