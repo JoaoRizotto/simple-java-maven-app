@@ -5,15 +5,16 @@ import java.util.Scanner;
 /**
  * Projeto Final da matéria de Laboratório de Engenharia de Software
  */
+
 public class App
 {
     /*Declara Appteste*/
     public App() {}
     public static void main(String[] args) {
-		
 		int num1= 10;
 		int num2= 5;
 		
+	    /*Print sistemico*/
 		System.out.println(soma(num1,num2));
 		System.out.println(sub(num1,num2));
 		System.out.println(multi(num1,num2));
@@ -21,7 +22,7 @@ public class App
 		
     }
     
-    /*declara funções*/
+    /*declara funções da calculadora*/
     public static int soma(int a, int b)
     {
         int res = a + b;
