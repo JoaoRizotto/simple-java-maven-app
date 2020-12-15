@@ -41,7 +41,7 @@ public class App
     }
     public static int divi(int a, int b)
     {
-        int result = a / b;
+        int res = a / b;
         return res;
     }
 }
